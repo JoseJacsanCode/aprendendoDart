@@ -8,5 +8,5 @@ void main() {
   print(valor);
   print(ehVerdadeiro);
   print(listaDePalavras);
-  print('${listaDePalavras[0]} - ${listaDePalavras[1]}');
+  print('${listaDePalavras[0]} - ${listaDePalavras}');
 }
