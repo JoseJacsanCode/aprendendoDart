@@ -11,6 +11,12 @@ O projeto atualmente contém exemplos de:
     - Implementação de lógica de seleção múltipla com `switch-case`.
     - Comparações lógicas e tipos de dados básicos.
 
+- **Programação Orientada a Objetos (`POO-2.dart`)**:
+    - **Abstração e Interfaces**: Uso de `abstract class` e `implements` para definir contratos.
+    - **Polimorfismo**: Implementação de diferentes formas de pagamento (Boleto e Pix) sob a mesma interface.
+    - **Herança**: Exemplo de herança simples com a classe `Jose` herdando de `Pai`.
+    - **Sobrescrita de Métodos**: Uso da anotação `@override`.
+
 ## 🚀 Como executar
 
 Certifique-se de ter o Dart SDK instalado. Para rodar o exemplo de estruturas de fluxo, execute o seguinte comando no terminal:
