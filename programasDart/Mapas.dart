@@ -20,4 +20,7 @@ void main() {
 
   mapa1.update('novaChaveDois', (value) => 'atualizado2');
   print(mapa1);
+
+  mapa1.keys.forEach(print);
+  mapa1.keys.forEach(print);
 }
