@@ -1,31 +1,61 @@
 # Aprendendo Dart
 
-Este repositório foi criado para organizar estudos e exemplos práticos da linguagem Dart. O objetivo é consolidar o conhecimento em lógica de programação e sintaxe da linguagem.
+Repositório com exemplos práticos para estudar fundamentos da linguagem Dart.
 
-## 📂 Estrutura do Projeto
+## Objetivo
 
-O projeto atualmente contém exemplos de:
+Consolidar a base da linguagem com exercícios curtos sobre:
 
-- **Estruturas de Fluxo (`EstruturasDeFluxo.dart`)**: 
-    - Uso de condicionais simples e compostas (`if` e `else`).
-    - Implementação de lógica de seleção múltipla com `switch-case`.
-    - Comparações lógicas e tipos de dados básicos.
+- tipos e variáveis
+- estruturas de decisão e repetição
+- coleções (`List` e `Map`)
+- classes, encapsulamento, herança, abstração e polimorfismo
+- null safety
+- `Future`, `async` e `await`
+- conversão para JSON
 
-- **Programação Orientada a Objetos (`POO-2.dart`)**:
-    - **Abstração e Interfaces**: Uso de `abstract class` e `implements` para definir contratos.
-    - **Polimorfismo**: Implementação de diferentes formas de pagamento (Boleto e Pix) sob a mesma interface.
-    - **Herança**: Exemplo de herança simples com a classe `Jose` herdando de `Pai`.
-    - **Sobrescrita de Métodos**: Uso da anotação `@override`.
+## Estrutura do projeto
 
-## 🚀 Como executar
+Os exemplos estão na pasta `programasDart/`:
 
-Certifique-se de ter o Dart SDK instalado. Para rodar o exemplo de estruturas de fluxo, execute o seguinte comando no terminal:
+- `Variaveis.dart`: declaração e uso de `String`, `int`, `bool` e `List<String>`
+- `EstruturasDeFluxo.dart`: uso de `if/else` e `switch`
+- `EstruturasRepeticao.dart`: laços `for` e `while`
+- `Mapas.dart`: criação, leitura, atualização e remoção de dados em `Map`
+- `MetodosClasses.dart`: criação de classe (`Celular`), construtor, método e `toString`
+- `POO.dart`: encapsulamento com atributos privados, getters e setter
+- `POO-2.dart`: herança, classes abstratas, interfaces (`implements`) e polimorfismo
+- `NullSafety.dart`: tipos anuláveis (`String?`) e uso de `late`
+- `FutureAsyncAwait.dart`: exemplo simples de operação assíncrona com `Future`
+- `ConversionToJSON.dart`: serialização de `Map` para JSON com `dart:convert`
+
+## Pré-requisitos
+
+- Dart SDK instalado
+
+Para verificar:
 
 ```bash
-dart EstruturasDeFluxo.dart
+dart --version
 ```
 
-## 📝 Próximos Passos
-- [ ] Adicionar exemplos de loops (`for`, `while`, `do-while`).
-- [ ] Explorar coleções (`Lists`, `Maps`, `Sets`).
-- [ ] Introduzir conceitos de Programação Orientada a Objetos (Classes e Métodos).
+## Como executar
+
+No diretório raiz do projeto, rode:
+
+```bash
+dart run programasDart/Variaveis.dart
+```
+
+Troque o nome do arquivo para executar outro exemplo. Exemplos:
+
+```bash
+dart run programasDart/EstruturasDeFluxo.dart
+dart run programasDart/POO-2.dart
+dart run programasDart/FutureAsyncAwait.dart
+```
+
+## Observações
+
+- O projeto está focado em aprendizado, com exemplos curtos e diretos.
+- Alguns arquivos podem conter comentários de testes feitos durante os estudos.
