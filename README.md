@@ -1,39 +1,78 @@
 # Aprendendo Dart
 
-Repositório com exemplos práticos para estudar fundamentos da linguagem Dart.
+Repositório de estudos com exemplos práticos dos principais conceitos da linguagem Dart.
 
 ## Objetivo
 
-Consolidar a base da linguagem com exercícios curtos sobre:
+Praticar fundamentos da linguagem com arquivos curtos e diretos, cobrindo:
 
-- tipos e variáveis
-- estruturas de decisão e repetição
+- variáveis e tipos básicos
+- estruturas de fluxo e repetição
 - coleções (`List` e `Map`)
-- classes, encapsulamento, herança, abstração e polimorfismo
+- orientação a objetos (classes, encapsulamento, herança, abstração e polimorfismo)
 - null safety
-- `Future`, `async` e `await`
+- programação assíncrona com `Future`, `async` e `await`
 - conversão para JSON
+- extensões (`extension`), enumerações (`enum`) e callable classes
+- tratamento de exceções
 
 ## Estrutura do projeto
 
-Os exemplos estão na pasta `programasDart/`:
+Todos os exemplos estão em `programasDart/`.
 
-- `Variaveis.dart`: declaração e uso de `String`, `int`, `bool` e `List<String>`
-- `EstruturasDeFluxo.dart`: uso de `if/else` e `switch`
-- `EstruturasRepeticao.dart`: laços `for` e `while`
-- `Mapas.dart`: criação, leitura, atualização e remoção de dados em `Map`
-- `MetodosClasses.dart`: criação de classe (`Celular`), construtor, método e `toString`
-- `POO.dart`: encapsulamento com atributos privados, getters e setter
-- `POO-2.dart`: herança, classes abstratas, interfaces (`implements`) e polimorfismo
-- `NullSafety.dart`: tipos anuláveis (`String?`) e uso de `late`
-- `FutureAsyncAwait.dart`: exemplo simples de operação assíncrona com `Future`
-- `ConversionToJSON.dart`: serialização de `Map` para JSON com `dart:convert`
+### Fundamentos
+
+- `Variaveis.dart`  
+  Declaração e uso de `String`, `int`, `bool` e `List<String>`.
+
+- `EstruturasDeFluxo.dart`  
+  Exemplos de `if/else` e `switch`.
+
+- `EstruturasRepeticao.dart`  
+  Laços `for` e `while`.
+
+- `Mapas.dart`  
+  Operações comuns com `Map`: criação, leitura, inserção, atualização e remoção.
+
+### Orientação a Objetos
+
+- `MetodosClasses.dart`  
+  Classe `Celular`, construtor, método de cálculo e sobrescrita de `toString()`.
+
+- `POO.dart`  
+  Encapsulamento com atributos privados, getters e setter.
+
+- `POO-2.dart`  
+  Herança, classes abstratas, interface com `implements` e polimorfismo.
+
+### Recursos da linguagem
+
+- `NullSafety.dart`  
+  Uso de tipos anuláveis (`String?`) e `late`.
+
+- `FutureAsyncAwait.dart`  
+  Simulação de chamada assíncrona com `Future` e `await`.
+
+- `ConversionToJSON.dart`  
+  Serialização de dados (`Map`) para JSON com `dart:convert`.
+
+- `Enum.dart`  
+  Enum com valores associados e uso em lógica de pagamento.
+
+- `Extensions.dart`  
+  `extension` em `String` e `Enum` para criar métodos utilitários.
+
+- `CallableInterface.dart`  
+  Classe com método `call()` permitindo invocação como função.
+
+- `TratamentoDeExceptions.dart`  
+  Blocos `try`, `on`, `catch`, `finally` e definição de exceção customizada.
 
 ## Pré-requisitos
 
 - Dart SDK instalado
 
-Para verificar:
+Verifique com:
 
 ```bash
 dart --version
@@ -41,21 +80,21 @@ dart --version
 
 ## Como executar
 
-No diretório raiz do projeto, rode:
+No diretório raiz do projeto:
 
 ```bash
 dart run programasDart/Variaveis.dart
 ```
 
-Troque o nome do arquivo para executar outro exemplo. Exemplos:
+Para executar outro exemplo, altere o nome do arquivo. Exemplos:
 
 ```bash
-dart run programasDart/EstruturasDeFluxo.dart
 dart run programasDart/POO-2.dart
-dart run programasDart/FutureAsyncAwait.dart
+dart run programasDart/Extensions.dart
+dart run programasDart/TratamentoDeExceptions.dart
 ```
 
 ## Observações
 
-- O projeto está focado em aprendizado, com exemplos curtos e diretos.
-- Alguns arquivos podem conter comentários de testes feitos durante os estudos.
+- Projeto focado em aprendizado e prática incremental.
+- Alguns arquivos têm comentários de testes/variações para estudo.
