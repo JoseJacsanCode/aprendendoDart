@@ -17,7 +17,7 @@ void main() {
   try {
     login.logar();
 
-  } on PasswordLenghtError catch (e) {
+  } on PasswordLenghtError {
     print('Falhou ao logar');
   }
   catch(e) {
@@ -29,7 +29,7 @@ void main() {
 
 }
 
-class Login() {
+class Login {
   void logar() {
     //String user = 'admin';
     String pass = '123';
