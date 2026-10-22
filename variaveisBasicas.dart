@@ -5,4 +5,10 @@ void main() {
   print(idade);
   print(nome);
   print(distancia);
+
+  idade = 31;
+  print(idade);
+
+  nome = 'Jacsan';
+  print(nome);
 }
